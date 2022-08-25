@@ -2,7 +2,7 @@
 ## Model identifiers
 - Slug: grover-freesolv
 - Ersilia ID: eos157v
-- Tags: 
+- Tags: Free Energy, Hydration
 
 # Model description
 Model based on experimental and calculated hydration free energy of small molecules in water.
