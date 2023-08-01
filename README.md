@@ -25,6 +25,8 @@ Model based on experimental and calculated hydration free energy of small molecu
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos157v)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos157v.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos157v) (AMD64, ARM64)
 
 ## Citation
 
