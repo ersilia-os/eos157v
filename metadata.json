@@ -3,21 +3,18 @@
     "Slug": "grover-freesolv",
     "Status": "Ready",
     "Title": "Hydration free energy of small molecules in water",
-    "Description": "Model based on experimental and calculated hydration free energy of small molecules in water, the FreeSolv dataset from MoleculeNet. Hydration free energies are relevant to understand the binding interaction between a molecule (in solution) into its binding site.  This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). \n",
+    "Description": "Model based on experimental and calculated hydration free energy of small molecules in water, the FreeSolv dataset from MoleculeNet. Hydration free energies are relevant to understand the binding interaction between a molecule (in solution) into its binding site.  This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). ",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Property calculation or prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Property calculation or prediction",
-    "Biomedical Area": [
-        "ADMET"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Other value"
     ],
@@ -29,20 +26,25 @@
         "Chemical graph model",
         "Quantum properties"
     ],
-    "Publication": "https://arxiv.org/abs/2007.02835",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Preprint",
     "Publication Year": 2020,
+    "Publication": "https://arxiv.org/abs/2007.02835",
     "Source Code": "https://github.com/tencent-ailab/grover",
     "License": "MIT",
     "Contributor": "Amna-28",
     "Incorporation Date": "2022-07-13",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos157v.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos157v",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos157v.zip",
-    "Deployment": [
-        "Local"
-    ]
+    "Model Size": 1292.0,
+    "Environment Size": 2409.0
 }
