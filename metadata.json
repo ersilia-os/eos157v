@@ -16,7 +16,7 @@
     ],
     "Input Dimension": 1,
     "Output": [
-        "Other value"
+        "Value"
     ],
     "Output Dimension": 1,
     "Output Consistency": "Fixed",
