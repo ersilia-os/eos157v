@@ -2,8 +2,7 @@
 
 Model based on experimental and calculated hydration free energy of small molecules in water, the FreeSolv dataset from MoleculeNet. Hydration free energies are relevant to understand the binding interaction between a molecule (in solution) into its binding site.  This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). 
 
-This model was incorporated on 2022-07-13.
-
+This model was incorporated on 2022-07-13.Last packaged on 2025-10-14.
 
 ## Information
 ### Identifiers
@@ -42,11 +41,11 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1292`
 - **Environment Size (Mb):** `2423`
-- **Image Size (Mb):** `6222.04`
+- **Image Size (Mb):** `6304.45`
 
 **Computational Performance (seconds):**
-- 10 inputs: `48.9`
-- 100 inputs: `451.14`
+- 10 inputs: `33.9`
+- 100 inputs: `159.43`
 - 10000 inputs: `-1`
 
 ### References
