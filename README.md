@@ -4,6 +4,7 @@ Model based on experimental and calculated hydration free energy of small molecu
 
 This model was incorporated on 2022-07-13.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos157v`
@@ -13,7 +14,7 @@ This model was incorporated on 2022-07-13.
 - **Task:** `Annotation`
 - **Subtask:** `Property calculation or prediction`
 - **Biomedical Area:** `ADMET`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `MoleculeNet`, `Chemical graph model`, `Quantum properties`
 
 ### Input
