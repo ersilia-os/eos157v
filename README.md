@@ -2,7 +2,7 @@
 
 Model based on experimental and calculated hydration free energy of small molecules in water, the FreeSolv dataset from MoleculeNet. Hydration free energies are relevant to understand the binding interaction between a molecule (in solution) into its binding site.  This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). 
 
-This model was incorporated on 2022-07-13.Last packaged on 2025-10-14.
+This model was incorporated on 2022-07-13.Last packaged on 2026-03-10.
 
 ## Information
 ### Identifiers
@@ -35,17 +35,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos157v](https://hub.docker.com/r/ersiliaos/eos157v)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos157v.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos157v.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1292`
 - **Environment Size (Mb):** `2406`
-- **Image Size (Mb):** `6304.45`
+- **Image Size (Mb):** `6306.9`
 
 **Computational Performance (seconds):**
-- 10 inputs: `33.9`
-- 100 inputs: `159.43`
+- 10 inputs: `34.74`
+- 100 inputs: `160.3`
 - 10000 inputs: `-1`
 
 ### References
