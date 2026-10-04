@@ -1,6 +1,6 @@
 # Hydration free energy of small molecules in water
 
-Model based on experimental and calculated hydration free energy of small molecules in water, the FreeSolv dataset from MoleculeNet. Hydration free energies are relevant to understand the binding interaction between a molecule (in solution) into its binding site.  This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). 
+Estimates the free energy released when a small molecule is transferred from vacuum into water, a quantity that underpins how tightly a solvated ligand can be pulled into a binding site. Training used FreeSolv, the MoleculeNet collection pairing experimental hydration free energies with calculated ones. The regressor was fine-tuned from a graph transformer pretrained without labels on 10 million ChEMBL and ZINC15 molecules. FreeSolv is small and dominated by neutral organic compounds, so charged or unusual chemistry sits outside its comfortable range.
 
 This model was incorporated on 2022-07-13.Last packaged on 2026-03-10.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2022-07-13.Last packaged on 2026-03-10.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Calculated Hydration Free energy in kcal/mol
+- **Interpretation:** Hydration free energy in kcal/mol, where more negative values indicate stronger solvation.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
