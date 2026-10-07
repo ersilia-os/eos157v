@@ -1,6 +1,6 @@
 # Hydration free energy of small molecules in water
 
-Estimates the free energy released when a small molecule is transferred from vacuum into water, a quantity that underpins how tightly a solvated ligand can be pulled into a binding site. Training used FreeSolv, the MoleculeNet collection pairing experimental hydration free energies with calculated ones. The regressor was fine-tuned from a graph transformer pretrained without labels on 10 million ChEMBL and ZINC15 molecules. FreeSolv is small and dominated by neutral organic compounds, so charged or unusual chemistry sits outside its comfortable range.
+Estimates the free energy released when a small molecule is transferred from vacuum into water, a quantity that underpins how tightly a solvated ligand can be pulled into a binding site. Training used FreeSolv, the MoleculeNet set of 642 molecules pairing experimental hydration free energies with alchemical calculations. A graph transformer pretrained without labels on 10 million ChEMBL and ZINC15 molecules was fine-tuned on it, averaging three folds per prediction. FreeSolv is small and dominated by neutral organic compounds, so charged or unusual chemistry sits outside its range.
 
 This model was incorporated on 2022-07-13.Last packaged on 2026-03-10.
 
