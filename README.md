@@ -3,7 +3,7 @@
 Estimates the free energy released when a small molecule is transferred from vacuum into water, a quantity that underpins how tightly a solvated ligand can be pulled into a binding site. Training used FreeSolv, the MoleculeNet set of 642 molecules pairing experimental hydration free energies with alchemical calculations. A graph transformer pretrained without labels on 10 million ChEMBL and ZINC15 molecules was fine-tuned on it, averaging three folds per prediction. FreeSolv is small and dominated by neutral organic compounds, so charged or unusual chemistry sits outside its range.
 
 This model was incorporated on 2022-07-13.
-Last packaged on 2026-03-10.
+Last packaged on 2026-11-03.
 
 ## Information
 ### Identifiers
@@ -36,17 +36,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos157v](https://hub.docker.com/r/ersiliaos/eos157v)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos157v.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos157v.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1292`
 - **Environment Size (Mb):** `2406`
-- **Image Size (Mb):** `6306.9`
+- **Image Size (Mb):** `3669.8`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.74`
-- 100 inputs: `160.3`
+- 10 inputs: `28.03`
+- 100 inputs: `97.74`
 - 10000 inputs: `-1`
 
 ### References
